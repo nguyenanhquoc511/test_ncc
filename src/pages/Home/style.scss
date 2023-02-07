@@ -1,0 +1,37 @@
+.home-container {
+  width: 80%;
+  margin: 20px 10%;
+  margin-left: 20%;
+  text-align: center;
+  background-color: var(--white-bg-color);
+
+  &__logo {
+    width: 310px;
+    height: 122px;
+  }
+
+  &__group-1 {
+    background-color: var(--gray-bg-color);
+    margin: 38px 0;
+    &__bg {
+      margin: 0 15%;
+      padding: 38px 0;
+      &__title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+      }
+
+      &__content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-indent: 10px;
+      }
+    }
+  }
+  &__group-2 {
+    display: flex;
+    gap: 0 50px;
+  }
+}

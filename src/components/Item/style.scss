@@ -1,0 +1,18 @@
+.item-container {
+  position: relative;
+
+  &__title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+
+  &__inner {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-indent: 127px;
+  }
+}

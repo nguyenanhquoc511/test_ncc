@@ -1,0 +1,23 @@
+:root {
+  /* RGB-Background-Colors */
+  --rgb-bg-black-color: 25, 23, 24; // #191718
+  --rgb-bg-gray-color: 239, 239, 239; // #EFEFEF
+  --rgb-bg-white-color: 255, 255, 255; // #FFFFFF
+
+  /* RGB-Text-Colors */
+  --rgb-black-text-color: 0, 0, 0; // #000000
+  --rgb-gray-level-1-text-color: 170, 170, 170; // #AAAAAA
+  --rgb-gray-level-2-text-color: 62, 62, 62; // #3E3E3E
+  --rgb-white-text-color: 255, 255, 255; // #FFFFFF
+
+  /* Background-Colors */
+  --black-bg-color: rgb(var(--rgb-bg-black-color));
+  --gray-bg-color: rgb(var(--rgb-bg-gray-color));
+  --white-bg-color: rgb(var(--rgb-bg-white-color));
+
+  /* Text Colors */
+  --black-text-color: rgb(var(--rgb-black-text-color));
+  --gray-level-1-text-color: rgb(var(--rgb-gray-level-1-text-color));
+  --gray-level-2-text-color: rgb(var(--rgb-gray-level-2-text-color));
+  --white-text-color: rgb(var(--rgb-white-text-color));
+}
